@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    /*
+      安装完毕以后进行一个全局配置
+      上传的时候 远程要知道是谁在上传
+      配置一下邮箱和用户名
+      直接打开 命令行 或则 git bash here
+      git config --list
+      git config --global user.name "用户名"
+      git config --global user.email "邮箱"
+
+      git管理文件夹
+      git不会随便管理你的文件夹
+      我们需要告诉他这个文件夹由git管理
+      他才会帮你管理 初始化
+
+      git init 
+      当一个文件夹被git管理以后 就可以使用一些git指令来操作文件了
+      git的常用指令
+      当一个文件夹被git管理以后
+      会自动分成三个区域
+      开发的区域
+      暂存区:暂时存储
+      历史区:生成一个历史版本的地方
+      想形成一个历史版本
+      只能把暂存区的所有内容生成一个版本
+
+      想上传到github 只能上传历史区的所有内容
+     git status 查看当前文件夹内部的所有文件的状态
+     git log 查看历史区的所有版本
+
+    当前你这个版本的版本 id
+     commit 12c9474e8608805585443331bd9a62fb8da02219 (HEAD -> master)
+    作者
+     Author: hq <1076084189@qq.com>
+    时间
+     Date:   Thu Feb 27 20:00:26 2020 +0800
+     秒速
+       这是我的第一个历史版本
+
+
+     把文件夹放在暂存区保存
+     git add 文件名
+     把一个文件添加到暂存区
+     git add 文件夹名称/ 把一个文件夹添加到缓存区
+     git add -all 把所有内容添加到缓存区
+     git add . 所有内容添加到缓存区 是一个简写形式
+
+     把暂存区里面的东西拉回到开发区域
+     git reset HEAD -- xxx
+     git reset HEAD -- 文件名
+     git reset HEAD -- 文件夹名称/
+     git reset HEAD -- . 拉回所有内容
+
+     把暂存区的内容形成一个历史版本
+     git commit -m 对本次历史版本做一个说明
+     这个指令会把暂存区的所有东西形成一个历史版本放到历史区里面保留
+      */
+  </script>
+</body>
+
+</html>
