@@ -4,7 +4,7 @@ import { Button } from "react-vant";
 export default function Home() {
   return (
     <div>
-      123213
+      123
     </div>
   );
 }
